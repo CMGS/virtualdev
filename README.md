@@ -9,3 +9,4 @@ Now, we use it to create our own EC2!
 * 持久化的数据可以引入 home 目录写入 ceph/mfs
 * 允许自定义镜像，容器 commit 需要 core 实现
 * calico 子网需要下发办公网络(路由表也行，反正都是开发了)
+* 运行时的时候需要给一个 docker 主目录 /var/lib/docker，可以用 tmp 模拟
