@@ -9,4 +9,4 @@ docker run -d --privileged --memory 300000000 \
   -v /var/lib/lxcfs/proc/stat:/proc/stat:rw \
   -v /var/lib/lxcfs/proc/swaps:/proc/swaps:rw \
   -v /var/lib/lxcfs/proc/uptime:/proc/uptime:rw \
-  harbor.shopeemobile.com/cloud/dev:centos init
+  harbor.shopeemobile.com/cloud/virtualdev:centos init

@@ -17,5 +17,5 @@ Now, we use it to create our own EC2!
 
 #### ERU 集成
 
-```/cli container deploy --pod eru --entry ec2 --file ~/.ssh/id_rsa.pub:/root/.ssh/authorized_keys --network etest --image harbor.shopeemobile.com/cloud/dev:centos --cpu 0.05 --mem 300000000 /Users/pengzf/Documents/workspace/sea/dev/spec.yaml```
+```/cli container deploy --pod eru --entry ec2 --file ~/.ssh/id_rsa.pub:/root/.ssh/authorized_keys --network etest --image harbor.shopeemobile.com/cloud/virtualdev:centos --cpu 0.05 --mem 300000000 ./spec.yaml```
 
