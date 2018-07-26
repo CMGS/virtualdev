@@ -4,6 +4,8 @@ entrypoints:
     cmd: "init"
     privileged: true
     log_config: "none"
+dns:
+  - "8.8.8.8"
 volumes:
   - /tmp/docker:/var/lib/docker:rw
   - /sys/fs/cgroup:/sys/fs/cgroup:ro
