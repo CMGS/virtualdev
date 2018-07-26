@@ -5,7 +5,7 @@ entrypoints:
     privileged: true
     log_config: "none"
 volumes:
-  - /var/lib/docker:/var/lib/docker:rw
+  - /tmp/docker:/var/lib/docker:rw
   - /sys/fs/cgroup:/sys/fs/cgroup:ro
   - /var/lib/lxcfs/cgroup/:/cgroup/:rw
   - /var/lib/lxcfs/proc/cpuinfo:/proc/cpuinfo:rw
