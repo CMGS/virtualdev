@@ -1,5 +1,7 @@
 FROM centos/systemd
 
+MAINTAINER CMGS <ilskdw@gmail.com>
+
 RUN yum install -y epel-release \
     && yum install -y openssh-server htop ncdu nload which git iproute \
     && yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo \
